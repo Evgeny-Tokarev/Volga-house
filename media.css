@@ -1,0 +1,435 @@
+@media screen and (max-width: 1300px) {
+.navigation li { 
+	display: none;
+}
+.adaptive-menu {
+	width: 60%;
+}
+.burger-nav {
+	display: block;
+	float: left;
+	margin: 32px auto auto 20%;
+}
+/*_________________________*/
+
+
+.main {
+	width: 100%;
+	padding-top: 60px;
+	
+}
+.main__text {
+	margin: auto 10px;
+}
+.main__text h1 {
+ 	letter-spacing: 1px;
+ 	line-height: 45px;
+	font-size: 25px;
+}
+.main__text p {
+    line-height: 18px;
+    font-size: 16px;
+    }
+/*_________________________*/
+
+.infrastructure__logo {
+	height: 300px;
+	background-size: cover;
+	padding-top: 5px;
+}
+
+.infrastructure__logo__item {
+	display: block;
+	width: 360px;
+	margin: 28px auto 0 auto;
+}
+
+.infrastructure__logo__text {
+	font-size: 15px;
+	margin: 8px 0 auto 15px;
+}
+/*_________________________*/
+
+.construction__list h5, .construction__list__column {
+	width: 320px;
+}
+}
+/*__________________________________________*/
+
+@media screen and (max-width: 1110px) {
+.helper {
+	width: 100%;
+	padding-top: 170px;
+}
+.advantages__item {
+		width: 32.66%;
+   }
+.advantages li:first-child, .advantages li:nth-child(3) {
+		top: 60px;  
+   }
+.advantages li:nth-child(2) {
+		top: 0;
+}
+.advantages li:nth-child(4), .advantages li:nth-child(6) {
+		top: 90px;   
+   }
+.advantages li:nth-child(5) {
+		top: 150px;   
+   }
+
+   /*_________________________*/
+
+.location__photocards {
+	height: 1200px;
+	position: static;
+}
+.location__photocard {
+	width: 100%;
+	height: 390px;
+
+	position: static;
+}
+
+  /*_________________________*/
+	
+#infrastructure {
+	background-size: cover;
+	height: 1200px;
+	margin-top: 20px;
+} 
+
+.infrastructure__list {
+	display: block;
+	width: 100%;
+}
+.infrastructure__column {
+	width: 320px;
+}
+  /*_________________________*/
+
+  .construction__heading {
+	font-size: 30px;
+}
+
+.construction__block {
+	margin-top: 30px;
+	display: block;
+	width: 100%;
+	text-align: center;
+	vertical-align: top;
+}
+  /*_________________________*/
+ .construction__list {
+ 	padding-left: 130px;
+ 	padding-bottom: 40px;
+ }
+
+.construction__list__heading {
+	width: 100%;		
+}
+
+.construction__inner {
+	display: block;
+	width: 100%;	
+}
+.construction__list__column, .construction__list h5 {
+	width: 450px;
+}
+
+  /*_________________________*/
+
+.documents__photos {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+#documents h2 {
+	font-size: 25px;
+}
+#documents h6 {
+	padding-top: 15px;
+	font-size: 18px;
+}
+
+.document__item {
+	width: 49%;
+}
+
+  /*_________________________*/
+
+
+footer {
+	height: 400px;
+	padding: 10px 0;
+}
+.footer__left {
+	float: none;
+	width: 100%;
+	min-width: 0;
+	margin: 0 auto;
+}
+.footer__left__item {
+	display: block;
+	width: 300px;
+	margin: 30px auto;
+}
+.phone__footer {
+	float: none;
+	margin: 10px auto;
+	padding-top: 0;
+}
+.copyright {
+	padding-left: 30px;
+}
+ .contacts {
+	 padding-left: 53px;
+ }
+}
+
+/*__________________________________________*/
+
+
+@media screen and (max-width: 773px) {
+
+.form__remain {
+	background: none;
+	margin: 16px auto 0 auto;
+}
+.advantages {
+	margin-top: 50px;
+}
+
+   /*_________________________*/
+
+.location__text h3{
+	font-size: 30px;
+}
+.location__text p{
+	font-size: 17px;
+}
+}
+
+/*__________________________________________*/
+
+@media screen and (max-width: 730px) {
+	.form h3 {
+	font-size: 22px;
+    margin-top: 50px;
+}
+.form p {
+	font-size: 16px;
+	line-height: 32px;
+	margin-bottom: 10px;
+}
+.form__remain {
+	background: none;
+	margin: 36px auto 0 auto;
+}
+
+}
+
+/*__________________________________________**/
+
+
+@media screen and (max-width: 700px) {
+.logo {
+	float: none;
+	margin: 0 auto;
+	}
+.navigation { 
+	display: none;
+}
+.burger-nav {
+	display: block;
+	float: none;
+	margin: 0;
+}
+.adaptive-menu {
+	width: 100%;
+	margin:auto;
+	float: none;
+	position: relative;
+}
+.burger__item {
+	position: absolute;
+	top: 35px;
+    left: 10px;
+}
+
+   /*_________________________*/
+
+#infrastructure {
+height: 1100px;
+}
+#infrastructure h2 {
+	font-size: 27px;
+}
+.infrastructure__list h4{
+	line-height: 27px;
+	font-size: 16px;
+}
+.infrastructure__item {
+	line-height: 24px;
+	font-size: 14px;
+}
+ /*_________________________*/
+ .construction__equipment h2 {
+	font-size: 30px;
+	padding: 40px 0 30px;
+	text-align: center;
+}
+ .construction__list {
+ 	padding-left: 100px;
+ }
+}
+
+/*__________________________________________*/
+
+@media screen and (max-width: 600px) {
+	.main {
+	width: 100%;
+	padding-top: 50px;
+	}
+	.main__text h1 {
+ 	letter-spacing: 0px;
+ 	line-height: 30px;
+	font-size: 21px;
+}
+.main__text p {
+    line-height: 16px;
+    font-size: 14px;
+    }
+/*________________________________*/
+
+.helper {
+	padding-top: 50px;
+}
+.advantages {
+	margin-top: 30px;
+}
+.advantages__item {
+	 width: 49%;
+	 margin-top: 20px;
+	}
+.advantages li:nth-child(n) {
+	top: 0;
+}
+
+   /*_________________________*/
+
+.location__text h3{
+	font-size: 24px;
+}
+.location__text p{
+	font-size: 14px;
+}
+ /*_________________________*/
+ .construction__equipment h2 {
+	font-size: 25px;
+	padding: 30px 0 20px;
+	text-align: center;
+}
+ .construction__list {
+ 	padding-left: 50px;
+ }
+ .construction__list h5 {
+	font-size: 16px;
+	padding: 0 0 20px 0;
+}
+
+.construction__list__column {
+	font-size: 14px;
+	line-height: 30px;
+}
+
+/*________________________________*/
+@media screen and (max-width: 544px) {
+
+.deadline {
+	height: 245px;
+}
+
+}
+
+/*__________________________________________*/
+
+
+@media screen and (max-width: 523px) {
+	.form {
+	height: 100%;
+	background-size: cover;
+}
+.form h3 {
+	padding-top: 20px;
+}
+.form__button {
+    width: 230px;
+}
+.form__remain p {
+	padding-top: 10px;
+}
+
+/*_________________________*/
+
+.advantages {
+	margin-top: 20px;
+}
+.advantages__item {
+	 width: 100%;
+}
+
+/*_________________________*/
+
+.infrastructure__logo {
+	height: 450px;
+}
+.infrastructure__logo__item {
+	width: 300px;
+}
+.infrastructure__logo__pic, .infrastructure__logo__text {
+	display: block;
+	float: none;
+	text-align: center;
+	margin: 5px auto;
+}
+/*_________________________*/
+
+#construction {
+    padding: 40px 0 0 0;
+}
+.construction__heading {
+	font-size: 25px;
+}
+.construction__block h4 {
+	font-size: 19px;
+}
+/*_________________________*/
+
+ .construction__list {
+ 	padding-left: 10px;
+ }
+.construction__list h5 {
+	width: 90%;
+}
+.construction__list__column {
+	width: 90%;
+}
+  /*_________________________*/
+
+.documents__photos {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+#documents h2 {
+	font-size: 25px;
+	padding-top: 40px;
+}
+#documents h6 {
+	padding-top: 10px;
+	font-size: 15px;
+}
+
+.document__item {
+	width: 100%;
+}
+}
+
